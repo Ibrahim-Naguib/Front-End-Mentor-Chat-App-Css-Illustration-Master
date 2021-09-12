@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Chat app CSS illustration
+  </title>
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome library -->
+  <link rel="stylesheet" href="all.min.css">
+  <!-- Main css file -->
+  <link rel="stylesheet" href="main.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      position: absolute;
+      bottom: 20px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="chat">
+      <div class="head">
+        <img src="./images/avatar.jpg" alt="">
+        <h6>Samuel Green<br><span>Available to Walk</span></h6>
+      </div>
+      <div class="body">
+        <p>That sounds great. I’d be happy with that.</p>
+        <p>Could you send over some pictures of your dog, please?</p>
+        <div class="pics">
+          <img src="./images/dog-image-1.jpg" alt="">
+          <img src="./images/dog-image-2.jpg" alt="">
+          <img src="./images/dog-image-3.jpg" alt="">
+        </div>
+        <p>Here are a few pictures. She’s a happy girl!</p>
+        <p>Can you make it?</p>
+        <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+        <form>
+          <div class="half">
+            <input type="radio" id="half-h" name="selector">
+            <label for="half-h">30 minute walk</label>
+            <div class="empty"></div>
+          </div>
+          <div class="hour">
+            <span></span>
+            <input type="radio" id="hour" name="selector">
+            <label for="hour">1 hour walk</label>
+            <div class="empty"></div>
+          </div>
+          <div class="send">
+            <input type="text" placeholder="Type a message…">
+            <input type="submit" value="">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="text">
+      <h1>Simple booking</h1>
+      <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to
+        discuss arrangements and make bookings. Once the walk has been completed you can rate
+        your walker and book again all through the chat.</p>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Ibrahim Naguib</a>.
+  </div>
+</body>
+
+</html>
